@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "todogoogle",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\Admin\\Desktop\\reactnative\\todogoogle\\amplify\\backend\\api\\todogoogle\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 364,
+      "apiKeyExpirationDate": "2023-08-29T22:10:20.564Z",
+      "keyDescription": "an api for my todogoogle"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authtodogoogle5d195c46"
+      }
+    ]
+  }
+}
